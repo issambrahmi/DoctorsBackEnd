@@ -4,10 +4,11 @@ const router = express.Router();
 router.use(express.json());
 
 const db = require('../Db/db');
+const app = express();
 
 
-router.get('/doctor' , async (req , res ) => {
-    
+router.get('/' , async (req , res ) => { 
+  
 })
 
 router.post('/add' , async (req , res)=>{
